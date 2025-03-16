@@ -23,8 +23,8 @@ public:
         while (i >= 0 || j >= 0)
         {
             // Se declaran las variables x y y
-            long x = i >= 0 ? num1[i] - '0' : 0; // Se convierte el valor de num1 en un entero
-            long y = j >= 0 ? num2[j] - '0' : 0; // Se convierte el valor de num2 en un entero
+            int x = i >= 0 ? num1[i] - '0' : 0; // Se convierte el valor de num1 en un entero
+            int y = j >= 0 ? num2[j] - '0' : 0; // Se convierte el valor de num2 en un entero
 
             // Se suman los valores de x y y multiplicados por 10 elevado a la posición
             zi1 += x * pow(10, pos);
